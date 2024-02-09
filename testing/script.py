@@ -2,7 +2,7 @@ import json
 import sqlite3
 
 
-json_file = r'C:\Users\61481\OneDrive\Desktop\Custom GPT\property_list.json'
+json_file = 'property_list.json'
 with open(json_file, 'r') as file:
     data = json.load(file)
 
